@@ -1,0 +1,28 @@
+# Direct dependencies for the homework notebooks.
+# Exact resolved versions of a working environment are in requirements-frozen.txt.
+#
+#   python3 -m venv .venv
+#   source .venv/bin/activate
+#   pip install -r requirements.txt
+
+# data + market data
+pandas
+numpy
+yfinance
+
+# HTML table scraping (pandas.read_html)
+requests
+lxml
+html5lib
+beautifulsoup4
+
+# charts
+matplotlib
+
+# module 2: precomputed parquet dataset
+pyarrow
+gdown
+
+# notebook runtime
+jupyterlab
+ipykernel

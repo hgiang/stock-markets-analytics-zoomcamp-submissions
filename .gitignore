@@ -2,3 +2,7 @@ __pycache__/
 *.py[cod]
 .DS_Store
 .venv/
+
+# notebook data caches (re-downloaded by the notebooks)
+*.parquet
+.ipynb_checkpoints/
